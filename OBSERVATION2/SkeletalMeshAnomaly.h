@@ -28,6 +28,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Anomaly")
 	class USkeletalMeshComponent* SkeletalMesh;
 
+	float TimePassed;
+
 
 protected:
 	// Called when the game starts or when spawned

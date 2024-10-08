@@ -36,7 +36,7 @@ void AAnomalyManager::BeginPlay()
 
 void AAnomalyManager::StartAnomalyTimer()
 {
-    float RandomTime = FMath::RandRange(5.0f, 30.0f);
+    float RandomTime = FMath::RandRange(20.0f, 35.0f);
 
     ACameraPlayerController* PlayerController = Cast<ACameraPlayerController>(GetWorld()->GetFirstPlayerController());
 
@@ -48,7 +48,7 @@ void AAnomalyManager::StartAnomalyTimer()
     if(FMath::IsNearlyEqual(CurrentElapsedTime, 180.0f, 0.1f))
     {   
         // more often
-        RandomTime = FMath::RandRange(3.0f, 20.0f); // in game 3 minute
+        RandomTime = FMath::RandRange(15.0f, 30.0f); // in game 3 minute
         UE_LOG(LogTemp, Warning, TEXT("ElapsedTime이 180초에 도달하여 더 자주 발생: %.2f초 후"), RandomTime);
     }
     
@@ -56,7 +56,7 @@ void AAnomalyManager::StartAnomalyTimer()
     if(FMath::IsNearlyEqual(CurrentElapsedTime, 300.0f, 0.1f))
     {   
         // more often
-        RandomTime = FMath::RandRange(2.0f, 10.0f); // in game 3 minute
+        RandomTime = FMath::RandRange(13.0f, 25.0f); // in game 3 minute
         UE_LOG(LogTemp, Warning, TEXT("ElapsedTime이 300초에 도달하여 더 자주 발생: %.2f초 후"), RandomTime);
     }
 

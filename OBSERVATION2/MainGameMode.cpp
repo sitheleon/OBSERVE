@@ -26,7 +26,7 @@ void AMainGameMode::EndGame()
         return;
     }
 
-    UE_LOG(LogTemp, Warning, TEXT("UnfixedAnamolyCount: %d"), AnomalyCount->UnfixedAnamolyCount);
+    //UE_LOG(LogTemp, Warning, TEXT("UnfixedAnamolyCount: %d"), AnomalyCount->UnfixedAnamolyCount);
 
     if (AnomalyCount->UnfixedAnamolyCount >= 6)
     {
