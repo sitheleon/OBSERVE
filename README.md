@@ -23,9 +23,21 @@ An immitation game of <I'm on Observation Duty>
 
 <h2> 2) Game Architecture </h2>
 
+<h3> 2-1) Player </h3>
 
+a
 
+<h3> 2-2) Anomaly </h3>
 
+a
+
+<h3> 2-3) Gamemode </h3>
+
+a
+
+<h3> 2-4) Widget </h3>
+
+a
 
 Developed partially help with Chat-GPT, and mainly with youtube tutorials.
 
