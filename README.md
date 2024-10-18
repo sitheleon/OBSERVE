@@ -19,7 +19,7 @@ An immitation game of <I'm on Observation Duty>
 
 <h2> 1) Demo Video </h2>
 
-
+a
 
 <h2> 2) Game Architecture </h2>
 
