@@ -2,7 +2,7 @@
 An immitation game of <I'm on Observation Duty>
 <h2> DEVELOPED BY LEE SI HYEON / KHU DIGITAL CONTENTS </h2>
 
-<h2> Developed through 2 months </h2>
+<h3> Developed through 2 months </h3>
 
 <PORTFOLIO>
 
@@ -17,11 +17,11 @@ An immitation game of <I'm on Observation Duty>
 
 
 
-<h2> Demo Video </h2>
+<h2> 1) Demo Video </h2>
 
 
 
-<h2> Game Architecture </h2>
+<h2> 2) Game Architecture </h2>
 
 
 
